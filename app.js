@@ -31,6 +31,7 @@ let operator = '';
 let nb2 = null;
 let valnb2="";
 let screen = "";
+let boolequal = false;
 
 function operate(operator,nb1,nb2)
 {
@@ -54,6 +55,15 @@ const btns = document.querySelector(".btns");
 
 btns.addEventListener("click",(event)=>{
     if (event.target.classList.contains("number")) {
+        if(boolequal == true)
+        {
+            display.textContent = "";
+            nb1 = null;
+            nb2 = null;
+            boolnb1 = false;
+            valnb2 = "";
+            boolequal = false;
+        }
 
         if(boolnb1 == false)
         {
@@ -89,6 +99,7 @@ btns.addEventListener("click",(event)=>{
             display.textContent = operate(operator,nb1,nb2);
             let x = operate(operator,nb1,nb2);
             console.log(x);
+            boolequal = true;
         }
     }
 
