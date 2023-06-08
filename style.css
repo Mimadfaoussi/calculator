@@ -1,0 +1,40 @@
+.container{
+    width: 100vh;
+    height: 100vh;
+    border: 2px solid red;
+    
+}
+
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: black;
+}
+
+.btns{
+    border: 2px solid red;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btns button{
+    width: 100px;
+    height: 30px;
+}
+
+.display{
+    height: 50px;
+    width: 50%;
+    background-color: yellow ;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+    
+}

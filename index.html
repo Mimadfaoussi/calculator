@@ -5,45 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <div class="container">
 
         <div class="display">
-
+            <h2 id="display"></h2>
         </div>
 
         <div class="btns">
-            <div class="line1">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
+            <div class="line">
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">/</button>
 
             </div>
 
-            <div class="line2">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
+            <div class="line">
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">x</button>
             </div>
 
-            <div class="line3">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
+            <div class="line">
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">-</button>
             </div>
-            <div class="line4">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
+            <div class="line">
+                <button class="number">0</button>
+                <button class="operator">+</button>
+                <button class="clear">clear</button>
+                <button class="equal">=</button>
             </div>
         </div>
 
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
